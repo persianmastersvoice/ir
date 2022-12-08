@@ -482,7 +482,7 @@ h6,
 # Body
 --------------------------------------------------------------*/
 
-#rectangle{
+.rectangle{
     width:200px;
     height:100px;
     background:blue;
