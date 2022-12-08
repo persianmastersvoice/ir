@@ -9,8 +9,12 @@
 # General
 --------------------------------------------------------------*/
 body {
+  font-family: "Drugs", monospace;
+  color: #0d1e2d;
+  /*
   font-family: "Inconsolata", monospace;
   color: #0d1e2d;
+  */
 }
 
 a {
