@@ -108,14 +108,5 @@
     })
   });
   
-  /**
-   * Collapsing Details
-   */
-  const details = document.querySelector('details');
-  const summary = details.querySelector('summary');
-  
-  summary.addEventListener('click', function() {
-    details.open = !details.open;
-  });
 
 })()
