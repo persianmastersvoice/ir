@@ -527,3 +527,7 @@ h6,
 .social a:hover {
   color: #000;
 }
+
+.p {
+  margin: 20px;
+}
