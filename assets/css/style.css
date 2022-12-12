@@ -418,6 +418,7 @@ h3.important {
   right: 0;
     background-color: #FFF;
   padding-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 780px) {
