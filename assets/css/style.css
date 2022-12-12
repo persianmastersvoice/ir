@@ -19,8 +19,9 @@ body {
 }
 
 a {
-  color: #777;
+  color: #000;
   text-decoration: none;
+  font-weight: bold;
 }
 
 a:hover {
