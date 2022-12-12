@@ -43,6 +43,10 @@ h6,
   font-family: "Raleway", sans-serif;
 }
 
+h3.important {
+  font-family: "Drugs", sans-serif;
+}
+
 .section {
   padding: 7rem 0;
 }
