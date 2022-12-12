@@ -408,11 +408,11 @@ h6,
   width: 100%;
     position: fixed;
     z-index: 999;
-    height: 188px;
+    height: 140px;
     top: 0;
   left: 0;
   right: 0;
-    background-color: #333;
+    background-color: #FFF;
 }
 
 @media (max-width: 780px) {
