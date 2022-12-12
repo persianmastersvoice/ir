@@ -409,6 +409,9 @@ h6,
     position: fixed;
     z-index: 999;
     height: 188px;
+    top: 0;
+  left: 0;
+  right: 0;
     background-color: #333;
 }
 
