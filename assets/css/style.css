@@ -18,11 +18,6 @@ body {
   */
 }
 
-header {
-    position: fixed;
-    top: 0;
-  }
-
 a {
   color: #777;
   text-decoration: none;
