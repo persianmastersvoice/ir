@@ -79,6 +79,18 @@
   });
 
   /**
+   * Search
+   */
+  
+  (function search() {
+    // Get the search term from the input field
+    var searchTerm = document.getElementById('searchInput').value;
+
+    // Search for the term on your website
+    // ...
+  });
+  
+  /**
    * Testimonials slider
    */
   new Swiper('.testimonials-slider', {
