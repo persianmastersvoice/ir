@@ -400,6 +400,8 @@ h6,
 .custom-navbar {
   padding-top: 50px;
   width: 100%;
+  position: fixed;
+  top: 0;
 }
 
 @media (max-width: 780px) {
