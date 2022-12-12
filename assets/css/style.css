@@ -410,15 +410,15 @@ h3.important {
 .custom-navbar {
   padding-top: 50px;
   width: 100%;
-    position: fixed;
+  /*  position: fixed;
     z-index: 999;
     height: 140px;
     top: 0;
-  left: 0;
-  right: 0;
+    left: 0;
+    right: 0;
     background-color: #FFF;
-  padding-bottom: 50px;
-  margin-bottom: 20px;
+    padding-bottom: 50px;
+    margin-bottom: 20px; */
 }
 
 @media (max-width: 780px) {
