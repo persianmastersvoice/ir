@@ -18,6 +18,11 @@ body {
   */
 }
 
+@font-face {
+  font-family: "CustomFont";
+  src: url("fonts/Drugs.otf") format("otf");
+}
+  
 a {
   color: #777;
   text-decoration: none;
