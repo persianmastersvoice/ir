@@ -24,14 +24,18 @@ body {
 }
   
 .expand-collapse {
-  height: 100px; /* initial height of the div */
+  height: 0px; /* initial height of the div */
   overflow: hidden; /* hide the content that overflows the div */
+  img {
+  float: left; /* float the image to the left */
+  }
 }
 
 button {
   border: none; /* remove the border around the button */
   background-color: transparent; /* make the button transparent */
   padding: 0; /* remove any padding from the button */
+  left
 }
 
 a {
