@@ -32,10 +32,11 @@ button {
   border: none; /* remove the border around the button */
   background-color: transparent; /* make the button transparent */
   padding: 0; /* remove any padding from the button */
+
+}
   img {
   float: left; /* float the image to the left */
   }
-}
 
 a {
   color: #777;
