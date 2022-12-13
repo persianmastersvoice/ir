@@ -1,3 +1,29 @@
+<script>
+  function search() {
+    // Get the search term from the input field
+    var searchTerm = document.getElementById('searchInput').value;
+
+    // Use AJAX to get the search results from your website
+    // ...
+
+    // Display the search results on the page
+    var resultsDiv = document.getElementById('results');
+    resultsDiv.innerHTML = ''; // Clear previous results
+    for (var i = 0; i < searchResults.length; i++) {
+      resultsDiv.innerHTML += '<p>' + searchResults[i] + '</p>';
+    }
+  }
+
+
+function toggle() {
+  var div = document.querySelector('.expand-collapse');
+
+    div.style.height = 'auto';
+
+  }
+}
+</script>
+
 <!DOCTYPE html>
 <html lang="en">
 
