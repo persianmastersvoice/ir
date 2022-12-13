@@ -130,11 +130,8 @@
 
 function toggle() {
   var div = document.querySelector('.expand-collapse');
-  if (div.style.height === '500px') {
-    // expand the div
+
     div.style.height = 'auto';
-  } else {
-    // collapse the div
-    div.style.height = '0px';
+
   }
 }
