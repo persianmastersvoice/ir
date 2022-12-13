@@ -28,6 +28,12 @@ body {
   overflow: hidden; /* hide the content that overflows the div */
 }
 
+button {
+  border: none; /* remove the border around the button */
+  background-color: transparent; /* make the button transparent */
+  padding: 0; /* remove any padding from the button */
+}
+
 a {
   color: #777;
   text-decoration: none;
