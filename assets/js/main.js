@@ -112,7 +112,8 @@
 
 })()
 
-  function search() {
+  
+(function search() {
     // Get the search term from the input field
     var searchTerm = document.getElementById('searchInput').value;
 
@@ -125,13 +126,13 @@
     for (var i = 0; i < searchResults.length; i++) {
       resultsDiv.innerHTML += '<p>' + searchResults[i] + '</p>';
     }
-  };
+  })()
 
 
-function toggle() {
+(function toggle() {
   var div = document.querySelector('.expand-collapse');
 
     div.style.height = 'auto';
 
   }
-};
+})()
