@@ -23,6 +23,11 @@ body {
   src: url("fonts/Drugs.otf") format("otf");
 }
   
+.expand-collapse {
+  height: 100px; /* initial height of the div */
+  overflow: hidden; /* hide the content that overflows the div */
+}
+
 a {
   color: #777;
   text-decoration: none;
