@@ -135,3 +135,27 @@ function toggle() {
 
   }
 }
+
+var fileContent = document.getElementById('fileContent');
+
+// create an XMLHttpRequest object
+var xhr = new XMLHttpRequest();
+
+// set the onload event handler
+xhr.onload = function() {
+  // create a FileReader object
+  var reader = new FileReader();
+
+  // set the onload event handler
+  reader.onload = function() {
+    // set the textarea value to the file content
+    fileContent.value = reader.result;
+  };
+
+  // start reading the file
+  reader.readAsText(xhr.response);
+};
+
+// open the request and send it
+xhr.open('GET', 'assets\csv\my-file.csv');
+xhr.send();
