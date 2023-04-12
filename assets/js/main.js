@@ -110,7 +110,19 @@
   });
   
 
-})()
 
   
+  
+  
+  
+})()
+
+    
+  const dotImage = document.getElementById('dot-image');
+const dropdownMenu = document.getElementById('dropdown-menu');
+
+dotImage.addEventListener('click', () => {
+  dropdownMenu.style.display = dropdownMenu.style.display === 'none' ? 'block' : 'none';
+});
+
 
