@@ -86,6 +86,10 @@
     div.style.height = div.style.height === "100px" ? "auto" : "100px";
   }
 
+  
+  var dotImage2 = document.querySelector('#dot-image-2');
+  
+  
   // Dropdown menu
   const dotImage = document.getElementById("dot-image");
   const dropdownMenu = document.getElementById("dropdown-menu");
