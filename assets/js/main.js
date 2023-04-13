@@ -5,6 +5,11 @@
  * License: https://bootstrapmade.com/license/
  */
 
+
+
+
+
+
 (function() {
   "use strict";
 
@@ -21,6 +26,20 @@
     }
   };
 
+  
+  function showText() {
+  var text = document.getElementById("text");
+  if (text.style.display === "none") {
+    text.style.display = "block";
+  } else {
+    text.style.display = "none";}
+  
+}
+
+  
+  
+  
+  
   const onscroll = (el, listener) => {
     el.addEventListener("scroll", listener);
   };
