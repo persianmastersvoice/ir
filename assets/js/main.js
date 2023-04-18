@@ -116,12 +116,4 @@
   dotImage.addEventListener("click", () => {
     dropdownMenu.style.display = dropdownMenu.style.display === "none" ? "block" : "none";
   });
-
-    // Dropdown menu2
-  const dotImage = document.getElementById("dot-image");
-  const dropdownMenu2 = document.getElementById("dropdown-menu2");
-
-  dotImage.addEventListener("click", () => {
-    dropdownMenu2.style.display = dropdownMenu2.style.display === "none" ? "block" : "none";
-  });
 })();
