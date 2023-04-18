@@ -17,15 +17,6 @@
   display: block;
 }
 
-#dropdown-menu2 {
-  display: none;
-}
-
-
-#dot-image:hover + #dropdown-menu2 {
-  display: block;
-}
-
 
 .full-width-row {
   width: 100%;
