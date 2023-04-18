@@ -8,16 +8,23 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-#dropdown-menu {
+#dropdown-menu1 {
   display: none;
 }
 
 
-#dot-image:hover + #dropdown-menu {
+#dot-image:hover + #dropdown-menu1 {
   display: block;
 }
 
+#dropdown-menu2 {
+  display: none;
+}
 
+
+#dot-image:hover + #dropdown-menu2 {
+  display: block;
+}
 
 
 .full-width-row {
