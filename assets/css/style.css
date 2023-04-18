@@ -8,12 +8,12 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-#dropdown-menu1 {
+#dropdown-menu {
   display: none;
 }
 
 
-#dot-image:hover + #dropdown-menu1 {
+#dot-image:hover + #dropdown-menu {
   display: block;
 }
 
