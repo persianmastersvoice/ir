@@ -40,8 +40,8 @@ body {
 
 @font-face {
   font-family: 'Drugs';
-  src: url('fonts/Drugs-Regular.woff2') format('woff2'),
-       url('fonts/Drugs-Regular.woff') format('woff');
+  src: url('path/to/Drugs-Regular.woff2') format('woff2'),
+       url('path/to/Drugs-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -82,7 +82,7 @@ h6,
 }
 
 h3.important {
-  font-family: "Drugs", sans-serif;
+  font-family: 'Drugs', sans-serif;
 }
 
 .section {
