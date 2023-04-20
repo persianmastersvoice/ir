@@ -37,6 +37,14 @@
 }
 
   
+  const navbar = document.querySelector('.custom-navbar');
+const logo = document.querySelector('#logo');
+const burger = document.querySelector('.burger');
+
+burger.addEventListener('click', function() {
+  navbar.classList.toggle('collapsed');
+  logo.classList.toggle('collapsed');
+});
   
   
   
