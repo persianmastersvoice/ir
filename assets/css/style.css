@@ -408,15 +408,44 @@ h3.important {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  z-index: 999;
-  transition: all 0.3s ease-in-out;
+  right: 0;
+  z-index: 1001;
 }
 
-.custom-navbar.collapsed {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+.collapse.show {
+  position: relative;
+  z-index: 1000;
 }
+
+@media (max-width: 991.98px) {
+  .custom-navbar {
+    background: #fff;
+    z-index: 1001;
+  }
+  
+  .custom-menu {
+    position: fixed;
+    top: 80px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding-top: 50px;
+    background: #fff;
+    opacity: 0.95;
+    z-index: 1000;
+    overflow-y: auto;
+  }
+}
+
+
+
+
+
+
+
+
+
+
 
 .custom-navbar #logo {
   transition: all 0.3s ease-in-out;
