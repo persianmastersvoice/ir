@@ -407,9 +407,25 @@ h3.important {
 .custom-navbar {
   position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
-  z-index: 10;
+  z-index: 999;
+  transition: all 0.3s ease-in-out;
 }
+
+.custom-navbar.collapsed {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.custom-navbar #logo {
+  transition: all 0.3s ease-in-out;
+}
+
+.custom-navbar.collapsed #logo {
+  margin-top: 50px;
+}
+
 
 .custom-navbar {
   background-color: white;
