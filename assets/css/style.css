@@ -402,6 +402,19 @@ h3.important {
   background: #827846;
 }
 
+
+
+.custom-navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.custom-navmenu {
+  margin-top: 88px; /* The height of your navbar */
+}
+
 .custom-navmenu .custom-menu,
 .custom-navmenu .custom-menu li {
   padding: 0;
