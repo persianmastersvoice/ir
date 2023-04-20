@@ -408,11 +408,16 @@ h3.important {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 999;
+  z-index: 10;
 }
 
-.custom-navmenu {
-  margin-top: 88px; /* The height of your navbar */
+.custom-navbar {
+  background-color: white;
+}
+
+.content {
+  background-color: transparent;
+  margin-top: 100px; /* adjust to match the height of your navbar */
 }
 
 .custom-navmenu .custom-menu,
